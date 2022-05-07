@@ -1,0 +1,8 @@
+.App{
+    min-height: 100%;
+}
+
+.App::after {
+    content: "";
+    display: block;
+  }

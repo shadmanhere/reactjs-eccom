@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <NavWrapper className="navbar navbar-expand-sm bg-dark navbar-dark">
-        <Link class="navbar-brand ms-3" to="#">
+        <Link class="navbar-brand ms-3" to="/">
             <img src="/logo192.png" alt="Avatar Logo" style={{width:"40px"}} className="rounded-pill" /> 
         </Link>
         <ul className="nav nav-pills">
